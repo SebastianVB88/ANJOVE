@@ -1,0 +1,31 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 75rem;
+    height: 28.125rem;
+    margin:  auto auto;
+    border: 1px solid red;
+}
+
+.container--profile{
+    flex-grow: 0.3;
+    display: flex;
+    
+    border: 1px solid red;
+}
+
+.container--cards{
+    flex-grow: 2;
+}
